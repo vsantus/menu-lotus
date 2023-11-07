@@ -1,0 +1,81 @@
+:root{
+    --cor-fundo-menu: rgb(184, 169, 249);
+    --cor-botao: rgb(125, 93, 204); 
+}
+
+img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 45px;
+    height: 42px;
+}
+
+li, a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.9;
+    color: black;
+}
+
+li  {
+    display: inline;
+    margin-right: 5px;
+}
+
+.container {
+    display: flex;
+    background-color: var(--cor-fundo-menu);
+    height: 100px;
+    width: 100% ;
+    border-bottom: 5px ridge var(--cor-botao);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.identidade {
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    flex-shrink: 0px;
+}
+
+.titulo{
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Agbalumo';
+    color: white;
+}
+.menu{
+    width: 50%;
+    justify-content: right;
+    padding-top: 20px;
+    display: flex;
+    font-size: 15px;
+    flex-shrink: 0px;
+    margin-right: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.btn-sobre{
+    background-color: var(--cor-botao);
+    padding: 5px;
+    color: #ffff;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.btn-cadastro{
+    background-color: var(--cor-botao);
+    padding: 5px 5px;
+    color: #ffff;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
